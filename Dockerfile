@@ -4,10 +4,10 @@ MAINTAINER bigboards (hello@bigboards.io)
 
 RUN \
   cd / && \
-  wget http://apache.cu.be/storm/apache-storm-0.9.4/apache-storm-0.9.4.tar.gz && \
-  tar xzf apache-storm-0.9.4.tar.gz && \
-  rm -f apache-storm-0.9.4.tar.gz && \
-  mv /apache-storm-0.9.4 /storm
+  wget http://apache.cu.be/storm/apache-storm-0.10.0/apache-storm-0.10.0.tar.gz && \
+  tar xzf apache-storm-0.10.0.tar.gz && \
+  rm -f apache-storm-0.10.0.tar.gz && \
+  mv /apache-storm-0.10.0 /storm
 
 # Define default command.
 CMD ["/bin/bash"]
